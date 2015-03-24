@@ -18,13 +18,13 @@ class Pippo {
   }
   
   public void muovi(){
-   if(keyPressed){
-      if ((key == 'w')||(key == 'W')) y = y-4;
-      if ((key == 's')||(key == 'S')) y = y+4;
-      if ((key == 'a')||(key == 'A')) x = x-4;
-      if ((key == 'd')||(key == 'D')) x = x+4;
+   if(keyPressed){ 
+      if (keys[1] == true) y = y-4;
+      if (keys[3] == true) y = y+4;
+      if (keys[0] == true) x = x-4;
+      if (keys[2] == true) x = x+4;
       
-      if ((key == 'd')||(key == 'D')){
+      /*if ((key == 'd')||(key == 'D')){
         if((key == 's')||(key == 'S')){
         x = x-4;
         y = y-4;
@@ -47,10 +47,11 @@ class Pippo {
         x = x-4;
         y = y+4;
         }
-      }
+      }*/
    }
     
   }
+ 
   
   
 }
