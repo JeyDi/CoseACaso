@@ -24,30 +24,6 @@ class Pippo {
       if (keys[0] == true) x = x-4;
       if (keys[2] == true) x = x+4;
       
-      /*if ((key == 'd')||(key == 'D')){
-        if((key == 's')||(key == 'S')){
-        x = x-4;
-        y = y-4;
-        }
-      }
-      if ((key == 'd')||(key == 'D')){
-        if((key == 's')||(key == 'S')){
-        x = x+4;
-        y = y-4;
-        }
-      }
-      if ((key == 'd')||(key == 'D')){
-        if((key == 's')||(key == 'S')){
-        x = x+4;
-        y = y+4;
-        }
-      }
-      if ((key == 'd')||(key == 'D')){
-        if((key == 's')||(key == 'S')){
-        x = x-4;
-        y = y+4;
-        }
-      }*/
    }
     
   }
